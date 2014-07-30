@@ -1,0 +1,161 @@
+* {
+margin: 0;
+padding: 0;
+}
+a{
+color:ffffff;
+}
+img{
+border:0;
+}
+
+body{
+background: url('../../../images/achtergrond_daniel_template/vb_achtergrond.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#honey_overlay{
+background-image:url('../images/honeycomb.png');
+background-repeat:repeat;
+min-width: 780px;
+overflow: hidden;
+}
+
+#nav_bar{
+width: 200px;
+height:100%;
+padding-left: 40px;
+padding-top: 20px;
+float:left;
+background-image:url('../images/nav_trans_acht.png');
+background-repeat:repeat;
+}
+
+#content{
+padding-left: 240px;
+}
+
+#nav_area{
+margin-top:25%;
+width:100%;
+}
+ul.menu li a{
+display:block;
+/* HIERONDER STAAT NOG STEEDS DE BESTE WORKAROUND VOOR IE!!!! beste wat we kunnen doen.
+border-width:1px;
+border-color:#000000;
+border-top-style:solid;
+border-right-style:none;
+border-bottom-style:none;
+border-left-style:none;
+*/
+color:#ffffff;
+text-transform:uppercase;
+font-family:Oswald,Calibri,Georgia,Serif;
+font-size:30px;
+text-decoration:none;
+}
+ul.menu
+{
+/*list-style-image:url('../images/list_block_item.png');*/
+list-style-image: none;
+list-style-type: none;
+}
+
+ul.menu li{
+-webkit-border-image:url(../images/border.png) 30 30 stretch; /* Safari 5 */
+-o-border-image:url(../images/border.png) 30 30 stretch; /* Opera */
+border-image:url(../images/border.png) 30 30 stretch;
+border-bottom:0;
+border-left:0;
+border-right:0;
+border-top:2;
+}
+
+ul.menu li:last-child{
+-webkit-border-image:url(../images/border.png) 30 30 stretch; /* Safari 5 */
+-o-border-image:url(../images/border.png) 30 30 stretch; /* Opera */
+border-image:url(../images/border.png) 30 30 stretch;
+border-left:0;
+border-right:0;
+border-bottom:2;
+border-top:2;
+}
+
+
+#social_area{
+position:relative;
+margin-top:50%;
+margin-right:auto;
+margin-left:auto;
+}
+ul.menu_sub{
+list-style-type:none;
+}
+ul.menu_sub li a{
+display:inline;
+color:#ffffff;
+text-transform:uppercase;
+font-family:Oswald,Calibri,Georgia,Serif;
+font-size:18px;
+text-decoration:none;
+}
+ul.menu_sub li a img{
+vertical-align:middle;
+margin-bottom:5px;
+margin-right:10px !important;
+}
+
+.blog_content, .item-page_content{
+font-family:Oswald,Calibri,Georgia,Serif;
+color:#ffffff;
+}
+.items-leading{
+margin-top:5% !important;
+}
+
+.blog_content div{
+padding:10px;
+margin-bottom:2%;
+margin-left:10%;
+margin-right:10%;
+margin-top:2%;
+min-width:300px;
+max-width:50%;
+display:table;
+background-image:url('../images/nav_trans_acht.png');
+background-repeat:repeat;
+}
+.item-page_content:last-child{
+margin-bottom:10%;
+}
+.blog_content:last-child{
+margin-bottom:10%;
+}
+
+.blog_content div div{
+padding:0px;
+margin:0px;
+background-image:none;
+background-repeat:no-repeat;
+}
+.item-page_content{
+padding:10px;
+margin-bottom:10%;
+margin-left:10%;
+margin-right:10%;
+margin-top:5%;
+min-width:300px;
+max-width:50%;
+display:table;
+background-image:url('../images/nav_trans_acht.png');
+background-repeat:repeat;
+}
+
+.bs_inside span{
+background-image: url('../images/nav_trans_acht.png') !important;
+background-repeat:repeat !important;
+}

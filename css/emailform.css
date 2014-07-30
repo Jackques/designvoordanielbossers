@@ -1,0 +1,116 @@
+._mod_mailform_th{
+color:ffffff;
+font-family:Oswald,Calibri,Georgia,Serif;
+font-weight:normal;
+}
+
+._mod_mailform_table{
+color:ffffff;
+font-family:Oswald,Calibri,Georgia,Serif;
+font-weight:normal;
+background-image:url('../images/nav_trans_acht.png');
+background-repeat:repeat;
+margin-left:10%;
+margin-top:15px;
+margin-bottom:10%;
+padding:10px;
+display:inline-block;
+float:left;
+height:340px;
+}
+.blog_content div{
+margin-bottom: 0% !important;
+}
+
+.custom_contact_rechtsboven, .custom_contact_rechtsboven2{
+background-image:url('../images/nav_trans_acht.png');
+background-repeat:repeat;
+color:ffffff;
+font-family:Oswald,Calibri,Georgia,Serif;
+font-weight:normal;
+min-width: 150px;
+max-width: 30%;
+display:inline-block;
+margin-left:10%;
+margin-top:10%;
+margin-right:10%;
+margin-bottom:15px;
+padding:10px;
+}
+#mod_simpleemailform_captcha_1{
+margin-left:5px;
+}
+
+#mod_simpleemailform_submit_1{
+font-family:Oswald,Calibri,Georgia,Serif;
+font-size:14px;
+font-weight:normal;
+color: #000000;
+width: 100px;
+height: 24px;
+border: none;
+margin: 0;
+margin-top:5px;
+margin-bottom:5px;
+padding: 0;
+background: url(../images/bg_emailform_button.png) 0 0 no-repeat; 
+}
+#mod_simpleemailform_reset_1{
+font-family:Oswald,Calibri,Georgia,Serif;
+font-size:10px;
+font-weight:normal;
+color: #000000;
+width: 75px;
+height: 18px;
+border: none;
+margin: 0;
+margin-top:5px;
+margin-bottom:5px;
+padding: 0;
+background: url(../images/bg_emailform_button.png) 0 0 no-repeat; 
+}
+#contact_info_extra{
+font-family:Oswald,Calibri,Georgia,Serif;
+font-weight:normal;
+color: #000000;
+padding:10px;
+margin-bottom:10%;
+margin-right:10%;
+margin-top:15px;
+min-width:300px;
+max-width:30%;
+float:left;
+clear:right;
+display:inline-block;
+background-image:url('../images/nav_trans_acht.png');
+background-repeat:repeat;
+height:320px;
+}
+#spacer_contact_vert{
+
+}
+#persoonlijke_info p{
+font-family:Oswald,Calibri,Georgia,Serif;
+font-weight:normal;
+color: #ffffff;
+margin-top:5px;
+margin-bottom:5px;
+}
+#persoonlijke_info p a{
+color: #ffffff;
+}
+#spacer_contact_hor{
+
+}
+#zakelijke_info p{
+font-family:"Courier New", Courier, monospace;
+font-size:12px;
+color: #ffffff;
+margin-top:5px;
+margin-bottom:5px;
+}
+._mod_mailform_td p b span{
+background-image:url('../images/nav_trans_acht.png');
+background-repeat:repeat;
+font-weight:normal;
+}

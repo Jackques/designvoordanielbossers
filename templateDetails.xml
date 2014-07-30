@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.6" type="template">
+       <name>Design voor Daniel Bossers</name>  
+       <creationDate>22-04-2013</creationDate>  
+        <author>Jack Gommeren en Remco de Vries</author>  
+        <authorEmail>Gommeren@msn.com</authorEmail>  
+        <authorUrl>http://www.jackgommeren.nl</authorUrl>  
+        <copyright>Geen copyright</copyright>  
+        <license>GNU/GPL</license>  
+        <version>1</version>  
+        <description>Design specifiek voor Daniel Bossers</description>  
+        <files>  
+                <filename>index.php</filename>  
+                <filename>templateDetails.xml</filename>
+		        <folder>css</folder>  
+				<folder>js</folder>
+				<folder>images</folder> 				
+         </files> 
+        <positions>  
+                <position>breadcrumb</position>
+				<position>sub_content0</position>  
+                <position>sub_content1</position>  
+                <position>right</position>  
+                <position>top_menu</position>  
+                <position>sub_menu</position>  
+                <position>user2</position>  
+                <position>user3</position>  
+                <position>user4</position>  
+                <position>footer</position>  
+        </positions>  
+</extension> 
